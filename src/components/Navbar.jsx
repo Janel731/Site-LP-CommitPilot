@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Navbar from '@/components/Navbar'
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import {
   ArrowRight,
