@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 const navigationItems = [
-  { title: "SOLUTIONS", href: "#" },
+  { title: "Acceuil", href: "#" },
   { title: "INDUSTRIES", href: "#" },
   { title: "RESOURCES", href: "#" },
   { title: "ABOUT US", href: "#" },
