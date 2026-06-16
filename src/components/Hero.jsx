@@ -20,7 +20,7 @@ import Navbar from '@/components/Navbar'
 
 const labels = [
   { icon: Sparkles, label: "Suivis des changements" },
-  { icon: Plug, label: "A" },
+  { icon: Plug, label: "Analyse " },
   { icon: Activity, label: "Natural Language Processing" },
 ];
 
