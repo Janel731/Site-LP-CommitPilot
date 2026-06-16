@@ -13,7 +13,7 @@ import {
 
 import { motion, useAnimation, useInView } from "framer-motion";
 import { Button } from "@/components/ui/button";
-
+import Navbar from '@/components/Navbar'
 
 
 
