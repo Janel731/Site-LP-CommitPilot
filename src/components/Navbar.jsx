@@ -8,8 +8,8 @@ import {
 
 const navigationItems = [
   { title: "ACCEUIL", href: "#" },
-  { title: "INDUSTRIES", href: "#" },
-  { title: "RESOURCES", href: "#" },
+  { title: "Comment çà marche?", href: "#" },
+  { title: "", href: "#" },
   { title: "ABOUT US", href: "#" },
 ];
 
