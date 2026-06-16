@@ -19,8 +19,8 @@ import Navbar from '@/components/Navbar'
 
 
 const labels = [
-  { icon: Sparkles, label: "" },
-  { icon: Plug, label: "Machine Learning" },
+  { icon: Sparkles, label: "Suivis des changements" },
+  { icon: Plug, label: "" },
   { icon: Activity, label: "Natural Language Processing" },
 ];
 
