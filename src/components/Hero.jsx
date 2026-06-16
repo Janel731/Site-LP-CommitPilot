@@ -28,7 +28,7 @@ const labels = [
 const features = [
   {
     icon: BarChart,
-    label: "Advanced Analytics",
+    label: "Suivis des changements",
     description:
       "Gain deeper insights from your data with our cutting-edge predictive models.",
   },
