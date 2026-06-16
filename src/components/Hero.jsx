@@ -69,13 +69,7 @@ export default function Hero() {
 
 
   const titleWords = [
-    "THE",
-    "AI",
-    "REVOLUTION",
-    "FOR",
-    "BUSINESS",
-    "INTELLIGENCE",
-    "Le",  "CLI", "qui", "automatise", "vos", "commits", "Git"
+    "Le",  "CLI", "qui", "automatise", "vos", "commits", "Git",
   ];
 
 
