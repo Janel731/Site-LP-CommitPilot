@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Acceuil from "."
+import Acceuil from "./pages/Acceuil"
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
    <>
-     
+     <Acceuil></Acceuil>
        
    </>
   )
