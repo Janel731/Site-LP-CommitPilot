@@ -9,7 +9,7 @@ import {
 const navigationItems = [
   { title: "ACCEUIL", href: "#" },
   { title: "Comment çà marche?", href: "#" },
-  { title: "", href: "#" },
+  { title: "DOCUMENTATION", href: "#" },
   { title: "ABOUT US", href: "#" },
 ];
 
