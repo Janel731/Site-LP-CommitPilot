@@ -75,6 +75,7 @@ export default function Hero() {
     "FOR",
     "BUSINESS",
     "INTELLIGENCE",
+    "Le",  "CLI", "qui", "automatise", "vos", "commits", "Git"
   ];
 
 
