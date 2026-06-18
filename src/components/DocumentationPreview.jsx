@@ -7,6 +7,9 @@ export default function DocumentationPreview() {
     "Exemples d'utilisation",
     "Configuration avancée",
     "Bonnes pratiques Git",
+    " Analyse",
+"Commit",
+ "Synchronisation"
   ];
 
   return (
