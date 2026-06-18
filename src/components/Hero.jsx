@@ -69,7 +69,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="container mx-auto px-4 min-h-screen bg-[#] ">
+    <div className="container mx-auto px-4 min-h-screen bg-[#EAEDE0] ">
       <Navbar></Navbar>
 
       <main>
