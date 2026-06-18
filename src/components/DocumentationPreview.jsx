@@ -13,6 +13,7 @@ export default function DocumentationPreview() {
       <div className="container mx-auto px-6">
         <div className="flex justify-center">
           <div className="max-w-6xl w-full">
+            <BlurFade delay={0.25} inView>
             <div className="flex flex-col gap-10 rounded-3xl border border-zinc-800 bg-zinc-900/50 p-8 backdrop-blur-sm md:flex-row md:items-center md:justify-between lg:p-12">
               {/* Left */}
               <div className="md:w-1/2">
