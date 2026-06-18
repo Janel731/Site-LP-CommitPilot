@@ -10,7 +10,7 @@ export default function DocumentationPreview() {
   ];
 
   return (
-    <section className="py-32">
+    <section className="py-32 bg-[#121213]">
       <div className="container mx-auto px-6">
         <div className="flex justify-center">
           <div className="max-w-6xl w-full">
