@@ -29,8 +29,8 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-32">
-      <div className="container mx-auto px-6 bg-neutral-950">
+    <section className="py-32 bg-neutral-950">
+      <div className="container mx-auto px-6 ">
 
         {/* Header */}
         <div className="mb-16 text-center">
