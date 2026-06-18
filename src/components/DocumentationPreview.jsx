@@ -25,7 +25,7 @@ export default function DocumentationPreview() {
                 </h2>
 
                 <p className="mt-4 text-zinc-400">
-                  Découvrez les directives d'installation, la commande, les exemples pratiques et les
+                  Découvrez les directives d'installation, les commandes , les exemples pratiques et les
                   configurations avancées pour tirer le meilleur parti de
                   CommitPilot.
                 </p>
