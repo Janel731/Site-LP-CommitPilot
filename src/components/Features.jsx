@@ -1,7 +1,7 @@
 import React from "react";
 import { GitBranch, Bot, Zap } from "lucide-react";
 
-const Fonctions = () => {
+const Features = () => {
   const features = [
     {
       icon: <Bot className="h-5 w-5" />,
