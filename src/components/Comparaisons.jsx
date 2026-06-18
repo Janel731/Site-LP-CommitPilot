@@ -1,17 +1,19 @@
 import React from "react";
-import { BlurFade } from "@/components/ui/blur-fade"
+import { BlurFade } from "@/components/ui/blur-fade";
 const Comparaisons = () => {
   return (
     <section className="w-full py-24 px-6 bg-[#121213] rounded-t-3xl">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Une seule commande.
-            <br />
-            Un workflow complet.
-          </h2>
-
+          <BlurFade delay={0.25} inView>
+            <h2 className="text-4xl md:text-5xl font-bold text-white">
+              Une seule commande.
+              <br />
+              Un workflow complet.
+            </h2>
+          </BlurFade>
+          
           <p className="text-zinc-400 mt-4 text-lg max-w-2xl mx-auto">
             Remplacez plusieurs commandes Git par une seule action intelligente.
           </p>
@@ -60,8 +62,6 @@ commitpilot start
               `}
             </pre>
 
-             
-
             <div className="px-6 pb-6">
               <p className="text-zinc-400">
                 Une seule commande pour automatiser votre workflow Git.
@@ -69,8 +69,6 @@ commitpilot start
             </div>
           </div>
         </div>
-
-        
       </div>
     </section>
   );
