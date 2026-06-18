@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ReviewsCTA() {
   return (
-    <section className="py-24 px-6">
+    <section className="py-24 px-6 bg-[#F8FBF8]">
       <div className="max-w-5xl mx-auto flex flex-col items-center justify-center text-center rounded-3xl bg-gradient-to-b from-blue-700 to-blue-950 p-10 md:p-16 text-white">
 
         
