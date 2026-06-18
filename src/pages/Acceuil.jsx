@@ -13,7 +13,7 @@ import React from 'react'
        <Comparaisons></Comparaisons>
        <Features></Features>
        <HowItWorks></HowItWorks>
-
+      <DocumentationPreview></DocumentationPreview>
     </>
   )
 }
