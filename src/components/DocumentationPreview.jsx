@@ -1,5 +1,5 @@
 import { ArrowRight, Check } from "lucide-react";
-
+import { BlurFade } from "@/components/ui/blur-fade";
 export default function DocumentationPreview() {
   const items = [
     "Guide d'installation rapide",
