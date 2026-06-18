@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BlurFade } from "@/components/ui/blur-fade";
 
 
 export default function ReviewsCTA() {

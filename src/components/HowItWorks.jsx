@@ -1,5 +1,5 @@
 import { Terminal, Rocket, GitCommit } from "lucide-react";
-
+import { BlurFade } from "@/components/ui/blur-fade";
 export default function HowItWorks() {
   const steps = [
     {
