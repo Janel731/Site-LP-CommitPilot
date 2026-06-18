@@ -1,0 +1,26 @@
+{
+  "hero.png": {
+    "hash": "013c992c30720bf156b62bd4c8a2760e71fe842a",
+    "outputs": [
+      "hero.webp"
+    ],
+    "optionsHash": "ea8d848b302482c2b3597c52ad4d8769971aa40f",
+    "mtime": 1781788842180
+  },
+  "commitPilot_Start.png": {
+    "hash": "53666e977eada46a25a26310e7aecfae85f9a24f",
+    "outputs": [
+      "commitPilot_Start.webp"
+    ],
+    "optionsHash": "ea8d848b302482c2b3597c52ad4d8769971aa40f",
+    "mtime": 1781788842256
+  },
+  "commitPilot_Commit.png": {
+    "hash": "f72d9cec14b450b4efb01fa78569a035afb0d2eb",
+    "outputs": [
+      "commitPilot_Commit.webp"
+    ],
+    "optionsHash": "ea8d848b302482c2b3597c52ad4d8769971aa40f",
+    "mtime": 1781788842260
+  }
+}
