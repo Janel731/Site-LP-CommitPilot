@@ -1,5 +1,5 @@
 import Comparaisons from '@/components/Comparaisons'
-import Feta from '@/components/Features'
+import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
 import React from 'react'
