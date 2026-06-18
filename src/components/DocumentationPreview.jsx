@@ -4,9 +4,8 @@ export default function DocumentationPreview() {
   const items = [
     "Guide d'installation rapide",
     "Introduction",
-"Installation",
-"Commandes"
-
+    "Installation",
+    "Commandes",
   ];
 
   return (
@@ -26,8 +25,8 @@ export default function DocumentationPreview() {
                 </h2>
 
                 <p className="mt-4 text-zinc-400">
-                  Découvrez les directives d'installation, les commandes de configuration pour tirer le meilleur parti de
-                  CommitPilot.
+                  Découvrez les directives d'installation, les commandes de
+                  configuration pour tirer le meilleur parti de CommitPilot.
                 </p>
 
                 <a
