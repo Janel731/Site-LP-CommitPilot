@@ -54,19 +54,19 @@ const Features = () => {
 
             {/* Images */}
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
+              <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 p-4">
                 <img
                   src={StartImg}
                   alt="CommitPilot Terminal start"
-                  className="aspect-video w-full object-cover object-center"
+                  className="w-full h-full aspect-video object-contain object-center"
                 />
               </div>
 
-              <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
+              <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 p-4">
                 <img
                   src={CommitImg}
                   alt="CommitPilot Commit"
-                  className="aspect-video w-full object-cover object-center"
+                  className="w-full h-full aspect-video object-contain object-center"
                 />
               </div>
             </div>
