@@ -59,6 +59,8 @@ const Features = () => {
             <div className="absolute inset-0 bg-blue-500/10 blur-3xl"></div>
 
             {/* Images */}
+                      <BlurFade delay={0.25} inView></BlurFade>
+
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 p-4">
                 <img
@@ -67,6 +69,7 @@ const Features = () => {
                   className="w-full h-full aspect-video object-contain object-center"
                 />
               </div>
+          <BlurFade delay={0.25} inView></BlurFade>
 
               <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 p-4">
                 <img
