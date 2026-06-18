@@ -54,7 +54,7 @@ const Features = () => {
 
             {/* Images */}
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
+              <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
                 <img
                   src={StartImg}
                   alt="CommitPilot Terminal start"
@@ -62,7 +62,7 @@ const Features = () => {
                 />
               </div>
 
-              <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
+              <div className="flex items-center justify-center overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
                 <img
                   src={CommitImg}
                   alt="CommitPilot Commit"
