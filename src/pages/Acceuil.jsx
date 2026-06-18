@@ -3,6 +3,7 @@ import DocumentationPreview from '@/components/DocumentationPreview'
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
+import ReviewsCTA from '@/components/ReviewsCTA'
 
 import React from 'react'
 
