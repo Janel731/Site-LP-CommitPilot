@@ -51,6 +51,7 @@ export default function DocumentationPreview() {
                 </ul>
               </div>
             </div>
+            </BlurFade>
           </div>
         </div>
       </div>
