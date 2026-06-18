@@ -11,6 +11,7 @@ export default function FinalCTA() {
         <div className="absolute inset-0 bg-blue-500/10 blur-3xl"></div>
 
         {/* Card */}
+         <BorderBeam />
         <div className="relative rounded-3xl border border-blue-500/20 bg-gradient-to-b from-blue-900/50 to-zinc-950 p-10 text-center md:p-16">
 
           {/* Badge */}
