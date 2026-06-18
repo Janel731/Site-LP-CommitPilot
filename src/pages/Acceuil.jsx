@@ -15,6 +15,7 @@ import React from 'react'
        <Features></Features>
        <HowItWorks></HowItWorks>
       <DocumentationPreview></DocumentationPreview>
+      <ReviewsCTA></ReviewsCTA>
     </>
   )
 }
