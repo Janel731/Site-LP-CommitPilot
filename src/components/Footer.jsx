@@ -1,4 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGit } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -52,7 +53,7 @@ export default function Footer() {
               href="#"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
-              <FaTwitter size={18} />
+              <FaGit size={18} />
             </a>
 
             <a
