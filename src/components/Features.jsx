@@ -31,6 +31,8 @@ const Features = () => {
       <div className="container mx-auto px-6 overflow-hidden">
         {/* Heading */}
         <div className="mb-20 flex flex-col items-center gap-6 text-center">
+
+          <BlurFade delay={0.25} inView></BlurFade>
           <span className="inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
             Fonctionnalités
           </span>
