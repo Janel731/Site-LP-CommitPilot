@@ -106,4 +106,6 @@ export default function Footer() {
 
         </div>
       </div>
-    </fo
+    </footer>
+  );
+}
