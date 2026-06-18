@@ -54,7 +54,7 @@ export default function Footer() {
               href="#"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
-              <FaGit size={18} />
+              <FaGithub size={18} />
             </a>
 
             <a
