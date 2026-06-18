@@ -8,7 +8,7 @@ export function BorderBeam({
     borderWidth = 1,
     colorFrom = "#10b981",
     colorTo = "#3b82f6",
-    borderRadius = 10,
+    borderRadius = 5,
     size = 0.2,
     variant = "default"
 }) {
