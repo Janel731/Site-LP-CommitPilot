@@ -57,7 +57,7 @@ const Features = () => {
               <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
                 <img
                   src={StartImg}
-                  alt="CommitPilot Terminal"
+                  alt="CommitPilot Terminal start"
                   className="aspect-video w-full object-cover"
                 />
               </div>
@@ -65,7 +65,7 @@ const Features = () => {
               <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
                 <img
                   src={CommitImg}
-                  alt="Commit"
+                  alt="CommitPilot Commit"
                   className="aspect-video w-full object-cover"
                 />
               </div>
