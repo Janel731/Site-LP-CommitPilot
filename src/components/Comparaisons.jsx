@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BlurFade } from "@/components/ui/blur-fade"
 const Comparaisons = () => {
   return (
     <section className="w-full py-24 px-6 bg-[#121213] rounded-t-3xl">
