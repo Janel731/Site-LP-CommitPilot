@@ -1,5 +1,5 @@
 import Comparaisons from '@/components/Comparaisons'
-import Fonctions from '@/components/Fonctions'
+import Fonctions from '@/components/Features'
 import Hero from '@/components/Hero'
 
 import React from 'react'
