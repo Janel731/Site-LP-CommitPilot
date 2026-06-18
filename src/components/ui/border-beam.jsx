@@ -10,7 +10,7 @@ export function BorderBeam({
     colorTo = "#3b82f6",
     borderRadius = 5,
     size = 0.2,
-    variant = "default"
+    variant = "flash"
 }) {
     const id = React.useId().replace(/:/g, "")
 
