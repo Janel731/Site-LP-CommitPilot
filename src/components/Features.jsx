@@ -2,6 +2,7 @@ import React from "react";
 import { GitBranch, Bot, Zap } from "lucide-react";
 import StartImg from "../assets/commitpilot_Start.webp";
 import CommitImg from "../assets/commitpilot_Commit.webp";
+import { BlurFade } from "@/components/ui/blur-fade"
 
 const Features = () => {
   const features = [
