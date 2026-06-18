@@ -56,7 +56,7 @@ const Features = () => {
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
                 <img
-                  src={terminalImg}
+                  src={StartImg}
                   alt="CommitPilot Terminal"
                   className="aspect-video w-full object-cover"
                 />
@@ -64,7 +64,7 @@ const Features = () => {
 
               <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
                 <img
-                  src={docsImg}
+                  src={CImg}
                   alt="CommitPilot Documentation"
                   className="aspect-video w-full object-cover"
                 />
