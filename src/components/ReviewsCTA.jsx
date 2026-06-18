@@ -11,7 +11,7 @@ export default function ReviewsCTA() {
 
         {/* Title */}
         <h2 className="mt-6 max-w-3xl bg-gradient-to-r from-white to-blue-200 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
-          Découvrez ce que les développeurs pensent de CommitPilot
+         Que pensez-vous de CommitPilot
         </h2>
 
         {/* Description */}
