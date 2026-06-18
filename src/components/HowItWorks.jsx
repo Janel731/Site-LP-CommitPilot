@@ -24,7 +24,7 @@ export default function HowItWorks() {
       title: "Commit",
       description:
         "CommitPilot analyse vos changements et crée un commit propre automatiquement.",
-      command: "feat: improve project workflow",
+      command: "feat: ",
     },
   ];
 
