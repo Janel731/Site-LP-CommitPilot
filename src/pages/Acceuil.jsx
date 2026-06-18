@@ -9,7 +9,7 @@ import React from 'react'
     <>
        <Hero></Hero>
        <Comparaisons></Comparaisons>
-       <Fonctions></Fonctions>
+       <Features></Features>
 <HowItWorks></HowItWorks>
     </>
   )
