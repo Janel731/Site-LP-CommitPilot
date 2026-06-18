@@ -3,9 +3,6 @@ import { ArrowRight, Check } from "lucide-react";
 export default function DocumentationPreview() {
   const items = [
     "Guide d'installation rapide",
-    " Analyse",
-    "Commit",
-    "Synchronisation",
     "Introduction",
 "Installation",
 "Commandes"
