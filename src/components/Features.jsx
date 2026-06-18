@@ -58,7 +58,7 @@ const Features = () => {
                 <img
                   src={StartImg}
                   alt="CommitPilot Terminal start"
-                  className="aspect-video w-full object-cover"
+                  className="aspect-video w-full object-cover object-center"
                 />
               </div>
 
@@ -66,7 +66,7 @@ const Features = () => {
                 <img
                   src={CommitImg}
                   alt="CommitPilot Commit"
-                  className="aspect-video w-full object-cover"
+                  className="aspect-video w-full object-cover object-center"
                 />
               </div>
             </div>
