@@ -1,5 +1,7 @@
 import React from "react";
 import { GitBranch, Bot, Zap } from "lucide-react";
+import terminalImg from "../assets/commitpilot-terminal.png";
+import docsImg from "../assets/commitpilot-docs.png";
 
 const Features = () => {
   const features = [
@@ -45,38 +47,31 @@ const Features = () => {
         </div>
 
         {/* Visual */}
-         <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6">
+          <div className="relative mx-auto max-w-screen-xl">
+            {/* Glow */}
+            <div className="absolute inset-0 bg-blue-500/10 blur-3xl"></div>
 
-        <div className="relative mx-auto max-w-screen-xl">
+            {/* Images */}
+            <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
+                <img
+                  src={terminalImg}
+                  alt="CommitPilot Terminal"
+                  className="aspect-video w-full object-cover"
+                />
+              </div>
 
-          {/* Glow */}
-          <div className="absolute inset-0 bg-blue-500/10 blur-3xl"></div>
-
-          {/* Images */}
-          <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
-
-            <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
-              <img
-                src={terminalImg}
-                alt="CommitPilot Terminal"
-                className="aspect-video w-full object-cover"
-              />
+              <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
+                <img
+                  src={docsImg}
+                  alt="CommitPilot Documentation"
+                  className="aspect-video w-full object-cover"
+                />
+              </div>
             </div>
-
-
-            <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900">
-              <img
-                src={docsImg}
-                alt="CommitPilot Documentation"
-                className="aspect-video w-full object-cover"
-              />
-            </div>
-
           </div>
-
         </div>
-
-      </div>
 
         {/* Features */}
         <div className="mx-auto mt-16 grid max-w-screen-lg gap-8 md:grid-cols-3">
