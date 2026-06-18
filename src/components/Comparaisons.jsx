@@ -2,7 +2,7 @@ import React from "react";
 
 const Comparaisons = () => {
   return (
-    <section className="w-full py-24 px-6 bg-neutral-900 rounded-t-3xl">
+    <section className="w-full py-24 px-6 bg-[#28282B] rounded-t-3xl">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">
