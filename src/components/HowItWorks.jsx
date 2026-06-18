@@ -24,7 +24,7 @@ export default function HowItWorks() {
       title: "Commit",
       description:
         "CommitPilot analyse vos changements et crée un commit propre automatiquement.",
-      command: "feat: Mise à jour du cha",
+      command: "feat: Mise à jour du changement de couleurs au survol",
     },
   ];
 
