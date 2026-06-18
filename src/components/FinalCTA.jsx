@@ -3,7 +3,7 @@ import React from "react";
 
 export default function FinalCTA() {
   return (
-    <section className="overflow-hidden py-24">
+    <section className="overflow-hidden py-24 bg-[#121213]">
       <div className="relative mx-auto max-w-6xl px-6">
 
         {/* Glow */}
