@@ -1,3 +1,5 @@
+import Comparaisons from '@/components/Comparaisons'
+import Fonctions from '@/components/Fonctions'
 import Hero from '@/components/Hero'
 
 import React from 'react'
@@ -6,6 +8,8 @@ import React from 'react'
   return (
     <>
        <Hero></Hero>
+       <Comparaisons></Comparaisons>
+       <Fonctions></Fonctions>
     </>
   )
 }
