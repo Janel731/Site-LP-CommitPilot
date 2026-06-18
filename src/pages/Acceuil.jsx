@@ -5,7 +5,7 @@ import FinalCTA from '@/components/FinalCTA'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
 import ReviewsCTA from '@/components/ReviewsCTA'
-
+Footer
 import React from 'react'
 
  const Acceuil = () => {
