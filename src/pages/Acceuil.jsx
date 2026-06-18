@@ -19,6 +19,7 @@ import React from 'react'
       <DocumentationPreview></DocumentationPreview>
       <ReviewsCTA></ReviewsCTA>
       <FinalCTA></FinalCTA>
+      <Footer></Footer>
     </>
   )
 }
