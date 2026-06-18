@@ -3,10 +3,6 @@ import { ArrowRight, Check } from "lucide-react";
 export default function DocumentationPreview() {
   const items = [
     "Guide d'installation rapide",
-    "Liste complète des commandes",
-    "Exemples d'utilisation",
-    "Configuration avancée",
-    "Bonnes pratiques Git",
     " Analyse",
 "Commit",
  "Synchronisation"
