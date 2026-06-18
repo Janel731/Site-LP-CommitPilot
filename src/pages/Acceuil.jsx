@@ -1,7 +1,9 @@
 import Comparaisons from '@/components/Comparaisons'
+import DocumentationPreview from '@/components/DocumentationPreview'
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
+
 import React from 'react'
 
  const Acceuil = () => {
@@ -11,6 +13,7 @@ import React from 'react'
        <Comparaisons></Comparaisons>
        <Features></Features>
        <HowItWorks></HowItWorks>
+
     </>
   )
 }
