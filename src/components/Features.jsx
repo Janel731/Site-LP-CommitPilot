@@ -37,11 +37,14 @@ const Features = () => {
             Fonctionnalités
           </span>
 
+                  <BlurFade delay={0.25} inView></BlurFade>
+
           <h2 className="text-4xl font-semibold text-white lg:text-5xl">
             Tout ce dont vous avez besoin pour
             <br />
             automatiser votre workflow Git
           </h2>
+          <BlurFade delay={0.25} inView></BlurFade>
 
           <p className="max-w-2xl text-zinc-400">
             CommitPilot simplifie vos tâches répétitives et vous permet de vous
