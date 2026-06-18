@@ -1,4 +1,5 @@
 import React from "react";
+import { BorderBeam } from "@/components/ui/border-beam"
 
 
 export default function FinalCTA() {
