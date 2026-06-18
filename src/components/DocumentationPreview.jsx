@@ -4,8 +4,8 @@ export default function DocumentationPreview() {
   const items = [
     "Guide d'installation rapide",
     " Analyse",
-"Commit",
- "Synchronisation"
+    "Commit",
+    "Synchronisation",
   ];
 
   return (
@@ -13,9 +13,7 @@ export default function DocumentationPreview() {
       <div className="container mx-auto px-6">
         <div className="flex justify-center">
           <div className="max-w-6xl w-full">
-
             <div className="flex flex-col gap-10 rounded-3xl border border-zinc-800 bg-zinc-900/50 p-8 backdrop-blur-sm md:flex-row md:items-center md:justify-between lg:p-12">
-
               {/* Left */}
               <div className="md:w-1/2">
                 <span className="inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
@@ -45,19 +43,14 @@ export default function DocumentationPreview() {
               <div className="md:w-1/3">
                 <ul className="space-y-4">
                   {items.map((item, index) => (
-                    <li
-                      key={index}
-                      className="flex items-center text-zinc-300"
-                    >
+                    <li key={index} className="flex items-center text-zinc-300">
                       <Check className="mr-3 h-5 w-5 text-blue-400" />
                       {item}
                     </li>
                   ))}
                 </ul>
               </div>
-
             </div>
-
           </div>
         </div>
       </div>
