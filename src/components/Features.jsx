@@ -1,7 +1,7 @@
 import React from "react";
 import { GitBranch, Bot, Zap } from "lucide-react";
-import terminalImg from "../assets/commitpilot_Start.webp";
-import docsImg from "../assets/commitpilot_Commit.webp";
+import StartImg from "../assets/commitpilot_Start.webp";
+import Img from "../assets/commitpilot_Commit.webp";
 
 const Features = () => {
   const features = [
