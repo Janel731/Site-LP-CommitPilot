@@ -10,8 +10,7 @@ import React from 'react'
        <Hero></Hero>
        <Comparaisons></Comparaisons>
        <Fonctions></Fonctions>
-       ks'
-HowItWorks
+<HowItWorks></HowItWorks>
     </>
   )
 }
