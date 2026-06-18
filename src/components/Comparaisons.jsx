@@ -13,10 +13,12 @@ const Comparaisons = () => {
               Un workflow complet.
             </h2>
           </BlurFade>
-          
+
+          <BlurFade delay={0.25} inView>
           <p className="text-zinc-400 mt-4 text-lg max-w-2xl mx-auto">
             Remplacez plusieurs commandes Git par une seule action intelligente.
           </p>
+          </BlurFade>
         </div>
 
         {/* Comparison */}
