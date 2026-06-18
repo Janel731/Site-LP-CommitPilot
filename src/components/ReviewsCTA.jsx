@@ -17,7 +17,7 @@ export default function ReviewsCTA() {
         {/* Description */}
         <p className="mt-4 max-w-2xl text-blue-100">
           Consultez les retours, expériences et avis des utilisateurs qui
-          automatisent déjà leur workflow Git avec CommitPilot.
+          automatisent déjà leur workflow Git avec CommitPilot. Et donnez également votre avis.
         </p>
 
         {/* Button */}
