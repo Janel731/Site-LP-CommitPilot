@@ -125,7 +125,8 @@ export default function Init() {
         <div className="mt-10">
 
 
-          <h3 className="mb-4 text-xl font-semibold text-white">
+          <h3 className="mb-4 text-xl font-semibold text-
+          ">
             Exemple
           </h3>
 
