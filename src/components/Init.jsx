@@ -6,7 +6,7 @@ export default function Init() {
     >
       <div className="max-w-4xl">
 
-        <span className="text-sm font-medium text-blue-400">
+        <span className="text-sm font-medium text-[#1B4FD8]">
           Configuration
         </span>
 
