@@ -163,7 +163,7 @@ gsk_xxxxxxxxxxxxx
 
         {/* Info */}
 
-        <div className="mt-8 rounded-xl border border-blue-500/20 bg-[#1B4FD8]/15 p-4">
+        <div className="mt-8 rounded-xl border border-blue-500/20 bg-[#1B4FD8]/25 p-4">
 
           <p className="text-sm text-[#1B4FD8] ">
             Cette étape est  nécessaire une seule fois
