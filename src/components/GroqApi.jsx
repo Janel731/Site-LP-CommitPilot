@@ -103,7 +103,7 @@ export default function GroqApi() {
           </h3>
 
           <p className="mt-2 text-sm leading-relaxed text-zinc-300 md:text-base">
-            Apres avoir creer la clé revener dans le terminal de votre éditeur de texte et coller la clé dans l'espace dédié à la recevoir apres que vous a
+            Apres avoir creer la clé revener dans le terminal de votre éditeur de texte et coller la clé dans l'espace dédié à la recevoir apres que vous avez fait commitpilot init
           </p>
 
         </div>
