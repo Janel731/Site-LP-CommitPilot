@@ -1,5 +1,9 @@
+import GroqApi from "@/components/GroqApi";
+import Init from "@/components/Init";
+import Installation from "@/components/Installation";
 import Introduction from "@/components/Introduction";
 import Prerequis from "@/components/Prerequis";
+
 import React from "react";
 
 const Documentation = () => {
@@ -60,6 +64,15 @@ const Documentation = () => {
                     </a>
                   </li>
 
+                   <li>
+                    <a
+                      href="#groq-api"
+                      className="text-zinc-400 transition hover:text-white"
+                    >
+                      Créer votre clé API
+                    </a>
+                  </li>
+
                   <li>
                     <a
                       href="#start"
@@ -103,10 +116,13 @@ const Documentation = () => {
           <main>
             <Introduction />
             <Prerequis />
-            {/* 
             <Installation />
             <Init />
             <GroqApi />
+            {/* 
+            
+            
+            
             <Start />
             <Workflow />
             <Faq /> */}
