@@ -1,5 +1,5 @@
 import Introduction from "@/components/Introduction";
-Prerequis
+import Prerequis from "@/components/Prerequis";
 import React from "react";
 
 const Documentation = () => {
