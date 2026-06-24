@@ -16,7 +16,7 @@ export default function GroqApi() {
       number: "03",
       title: "Copier la clé",
       description:
-        "Copiez immédiatement votre clé API avant de fermer la page.",
+        "Copiez immédiatement votre clé API avant de fermer l'onglet.",
     },
   ];
 
