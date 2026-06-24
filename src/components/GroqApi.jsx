@@ -96,7 +96,19 @@ export default function GroqApi() {
         </div>
 
 
-        <div></div>
+         <div className="mt-8 rounded-2xl border border-yellow-500/20 bg-yellow-500/5 p-5">
+
+          <h3 className="font-semibold text-yellow-400">
+            Enregrister la clé
+          </h3>
+
+          <p className="mt-2 text-sm leading-relaxed text-zinc-300 md:text-base">
+            Groq affiche votre clé API une seule fois après sa création.
+            Pensez à la copier immédiatement et à la conserver dans un
+            endroit sécurisé.
+          </p>
+
+        </div>
 
 
 
