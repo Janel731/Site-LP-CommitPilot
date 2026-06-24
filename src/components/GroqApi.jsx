@@ -32,7 +32,7 @@ export default function GroqApi() {
           Créer une clé API Groq
         </h2>
 
-        <p className="mt-5 max-w-3xl text-base leading-relaxed text-zinc-400 md:text-lg">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text- md:text-lg">
           CommitPilot utilise l'intelligence artificielle de Groq pour analyser
           votre projet et générer des commits pertinents. Une clé API est
           nécessaire pour activer cette fonctionnalité.
