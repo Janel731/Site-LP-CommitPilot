@@ -5,12 +5,14 @@ import {
   ArrowRight,
   Menu,
 } from "lucide-react";
+import { Link } from 'react-router-dom';
+
 
 const navigationItems = [
-  { title: "ACCEUIL", href: "#" },
-  { title: "Comment çà marche?", href: "#" },
-  { title: "DOCUMENTATION", href: "#" },
-  { title: "ABOUT US", href: "#" },
+  { title: "ACCEUIL", lien: "/" },
+  { title: "Comment çà marche?", lien: "#" },
+  { title: "DOCUMENTATION", lien: "/documentation" },
+  { title: "ABOUT US", lien: "#" },
 ];
 
 const Navbar = () => {
@@ -41,13 +43,13 @@ const Navbar = () => {
 
             {navigationItems.map((item)=>(
               
-              <a
+              <Link
                 key={item.title}
-                href={item.href}
+                to={item.lien}
                 className="text-sm font-mono text-foreground hover:text-[#FF6B2C] transition-colors"
               >
                 {item.title}
-              </a>
+              </Link>
 
             ))}
 

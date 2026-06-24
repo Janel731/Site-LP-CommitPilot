@@ -12,7 +12,6 @@ import {
 
 import { motion, useAnimation, useInView } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import Navbar from "@/components/Navbar";
 import { Terminal } from "./terminal";
 
 const labels = [
@@ -70,7 +69,7 @@ export default function Hero() {
 
   return (
     <div className="container mx-auto px-4 min-h-screen bg-[#F8FBF8] ">
-      <Navbar></Navbar>
+      
 
       <main>
         <section className="container py-24">
