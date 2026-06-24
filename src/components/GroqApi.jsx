@@ -26,7 +26,7 @@ export default function GroqApi() {
       className="scroll-mt-24 border-b border-zinc-800 py-10 md:py-16"
     >
       <div className="max-w-4xl">
-        <span className="text-sm font-medium text-blue-400">Configuration</span>
+        <span className="text-sm font-medium text-[#1B4FD8] ">Configuration</span>
 
         <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
           Créer une clé API Groq
