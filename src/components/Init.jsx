@@ -61,7 +61,7 @@ export default function Init() {
           <div className="grid gap-4 md:grid-cols-3">
 
 
-            <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-5">
+            <div className="rounded-xl border border-zinc-800 bg-[#1E1E2E] /40 p-5">
 
               <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-blue-500/10 text-blue-400">
                 1
