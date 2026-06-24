@@ -103,9 +103,7 @@ export default function GroqApi() {
           </h3>
 
           <p className="mt-2 text-sm leading-relaxed text-zinc-300 md:text-base">
-            Groq affiche votre clé API une seule fois après sa création.
-            Pensez à la copier immédiatement et à la conserver dans un
-            endroit sécurisé.
+            Apres avoir creer la clé revener dans le terminal de votre 
           </p>
 
         </div>
