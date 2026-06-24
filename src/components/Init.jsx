@@ -16,7 +16,7 @@ export default function Init() {
         </h2>
 
 
-        <p className="mt-5 max-w-3xl text-base leading-relaxed text md:text-lg">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text-[#3D3D4E] md:text-lg">
           Avant même de lancer Commitpilot , vous devez l'initialiser.
           Pour fourni les messages de commit , CommitPilot , utilise en background une IA qui génère les messages. Il vous faut donc activer cette fonction , d'où l'importance de <code className="text-blue-400">
           commitpilot init</code>.
