@@ -1,8 +1,11 @@
+import FAQ from "@/components/FAQ";
 import GroqApi from "@/components/GroqApi";
 import Init from "@/components/Init";
 import Installation from "@/components/Installation";
 import Introduction from "@/components/Introduction";
 import Prerequis from "@/components/Prerequis";
+import Start from "@/components/Start";
+import Workflow from "@/components/Workflow";
 
 import React from "react";
 
@@ -15,7 +18,7 @@ const Documentation = () => {
           <aside className="sticky top-24 hidden h-fit lg:block">
             <nav className="space-y-8">
               <div>
-                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-zinc-500">
+                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-[#1B4FD8] ">
                   Guide
                 </h3>
 
@@ -23,7 +26,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#getting-started"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       Introduction
                     </a>
@@ -32,7 +35,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#prerequisites"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       Prérequis
                     </a>
@@ -41,7 +44,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#installation"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       Installation
                     </a>
@@ -50,7 +53,7 @@ const Documentation = () => {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-zinc-500">
+                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-[#1B4FD8]">
                   Commandes
                 </h3>
 
@@ -58,7 +61,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#init"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       commitpilot init
                     </a>
@@ -67,7 +70,7 @@ const Documentation = () => {
                    <li>
                     <a
                       href="#groq-api"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       Créer votre clé API
                     </a>
@@ -76,7 +79,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#start"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       commitpilot start
                     </a>
@@ -85,7 +88,7 @@ const Documentation = () => {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-zinc-500">
+                <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-[#1B4FD8]">
                   Référence
                 </h3>
 
@@ -93,7 +96,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#workflow"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       Workflow
                     </a>
@@ -102,7 +105,7 @@ const Documentation = () => {
                   <li>
                     <a
                       href="#faq"
-                      className="text-zinc-400 transition hover:text-white"
+                      className="text-[#1E1E2E] transition hover:text-[#1B4FD8]"
                     >
                       FAQ
                     </a>
@@ -119,13 +122,9 @@ const Documentation = () => {
             <Installation />
             <Init />
             <GroqApi />
-            {/* 
-            
-            
-            
             <Start />
             <Workflow />
-            <Faq /> */}
+            <FAQ />
           </main>
         </div>
       </div>

@@ -5,20 +5,20 @@ export default function Introduction() {
       className="border-b border-zinc-800 pb-12 md:pb-16"
     >
       <div className="w-full max-w-4xl">
-        <span className="text-sm font-medium text-blue-400">
+        <span className="text-sm font-medium text-[#1B4FD8]">
           Getting Started
         </span>
 
-        <h1 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+        <h1 className="mt-3 text-3xl font-bold tracking-tight text-[#1E1E2E] sm:text-4xl md:text-5xl">
           CommitPilot
         </h1>
 
-        <p className="mt-5 text-base leading-relaxed text-zinc-400 md:text-lg">
+        <p className="mt-5 text-base leading-relaxed text-[#3D3D4E] md:text-lg">
           CommitPilot est un assistant CLI conçu pour simplifier votre workflow
           Git grâce à l'intelligence artificielle.
         </p>
 
-        <p className="mt-4 text-base leading-relaxed text-zinc-400 md:text-lg">
+        <p className="mt-4 text-base leading-relaxed text-[#3D3D4E] md:text-lg">
           Analysez vos modifications, générez des commits cohérents et gagnez du
           temps sur vos projets.
         </p>
@@ -36,7 +36,7 @@ export default function Introduction() {
           ].map((item) => (
             <span
               key={item}
-              className="rounded-full border border-zinc-800 bg-zinc-900/50 px-3 py-1.5 text-xs text-zinc-300 md:px-4 md:py-2 md:text-sm"
+              className="rounded-full bg-[#1E1E2E]/90 px-3 py-1.5 text-xs text-white md:px-4 md:py-2 md:text-sm"
             >
               {item}
             </span>

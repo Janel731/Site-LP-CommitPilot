@@ -6,17 +6,17 @@ export default function Installation() {
     >
       <div className="max-w-4xl">
 
-        <span className="text-sm font-medium text-blue-400">
+        <span className="text-sm font-medium text-[#1B4FD8]">
           Installation
         </span>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-[#1E1E2E] md:text-4xl">
           Installer CommitPilot
         </h2>
 
-        <p className="mt-5 max-w-3xl text-base leading-relaxed text-zinc-400 md:text-lg">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text-[#3D3D4E] md:text-lg">
           Installez CommitPilot globalement sur votre machine afin
-          d'utiliser la commande <code className="text-blue-400">
+          d'utiliser la commande <code className="text-[#1B4FD8]">
           commitpilot</code> depuis n'importe quel projet Git.
         </p>
 
@@ -48,7 +48,7 @@ export default function Installation() {
 
         {/* Explication */}
 
-        <div className="mt-8 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5 md:p-6">
+        <div className="mt-8 rounded-2xl border border-zinc-800 bg-[#1E1E2E]/90 p-5 md:p-6">
 
           <h3 className="text-lg font-semibold text-white">
             Vérifier l'installation
