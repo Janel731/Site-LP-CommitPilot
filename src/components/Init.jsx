@@ -11,7 +11,7 @@ export default function Init() {
         </span>
 
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-[#1E1E2E] md:text-4xl">
           Initialiser CommitPilot
         </h2>
 
