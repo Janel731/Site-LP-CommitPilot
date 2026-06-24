@@ -165,7 +165,7 @@ gsk_xxxxxxxxxxxxx
 
         <div className="mt-8 rounded-xl border border-blue-500/20 bg-[#1B4FD8]/5 p-4">
 
-          <p className="text-sm text-blue-300">
+          <p className="text-sm text-[#1B4FD8] ">
             Cette étape est  nécessaire une seule fois
             après l'installation de CommitPilot.
           </p>
