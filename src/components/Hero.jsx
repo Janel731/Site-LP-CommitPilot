@@ -164,7 +164,10 @@ export default function Hero() {
               size="lg"
               className="cursor-pointer rounded-none mt-12 bg-[#1B4FD8] hover:bg-[#1B4FD8]/90 font-mono"
             >
-              GET STARTED
+              <a href="/documentation">
+                Demarrer
+              
+              </a>
               <ArrowRight className="ml-1 w-4 h-4" />
             </Button>
           </div>

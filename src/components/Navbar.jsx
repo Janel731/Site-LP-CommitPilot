@@ -12,7 +12,7 @@ const navigationItems = [
   { title: "ACCEUIL", lien: "/" },
   { title: "Comment çà marche?", lien: "#howToWorks" },
   { title: "DOCUMENTATION", lien: "/documentation" },
-  { title: "ABOUT US", lien: "#" },
+  
 ];
 
 const Navbar = () => {
@@ -65,8 +65,11 @@ const Navbar = () => {
               variant="default"
               className="rounded-none hidden md:inline-flex bg-[#1B4FD8] hover:bg-[#1B4FD8]/90 font-mono"
             >
+              <a href="/documentation">
+                    Demarrer
+              </a>
 
-              GET STARTED
+              
 
               <ArrowRight className="ml-1 w-4 h-4"/>
 

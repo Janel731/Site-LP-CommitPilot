@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           {/* Navigation */}
-          <nav className="mb-10 flex flex-wrap justify-center gap-6 text-zinc-400">
+          {/* <nav className="mb-10 flex flex-wrap justify-center gap-6 text-zinc-400">
             <a href="/" className="hover:text-blue-400 transition">
               Accueil
             </a>
@@ -38,7 +38,7 @@ export default function Footer() {
             <a href="#installation" className="hover:text-blue-400 transition">
               Installation
             </a>
-          </nav>
+          </nav> */}
 
           {/* Socials */}
           <div className="mb-10 flex gap-4">

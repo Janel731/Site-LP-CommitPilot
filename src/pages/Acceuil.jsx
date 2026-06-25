@@ -4,7 +4,7 @@ import Features from '@/components/Features'
 import FinalCTA from '@/components/FinalCTA'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
-import ReviewsCTA from '@/components/ReviewsCTA'
+// import ReviewsCTA from '@/components/ReviewsCTA'
  
 import React from 'react'
 
@@ -16,7 +16,7 @@ import React from 'react'
        <Features></Features>
        <HowItWorks></HowItWorks>
       <DocumentationPreview></DocumentationPreview>
-      <ReviewsCTA></ReviewsCTA>
+      {/* <ReviewsCTA></ReviewsCTA> */}
       <FinalCTA></FinalCTA>
      
     </>
