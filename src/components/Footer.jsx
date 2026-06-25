@@ -50,14 +50,14 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://github.com/Janel731/" 
+              href="https://github.com/Janel731/" target="_blank"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
               <FaGithub size={18} />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/janel-guedemey-798545400/"
+              href="https://www.linkedin.com/in/janel-guedemey-798545400/" target="_blank"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
               <FaLinkedin size={18} />
