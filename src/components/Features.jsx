@@ -1,6 +1,6 @@
 import React from "react";
 import { GitBranch, Bot, Zap } from "lucide-react";
-import StartImg from "../assets/commitilot_Start.webp";
+import StartImg from "../assets/commitPilot_Start.webp";
 import CommitImg from "../assets/commitPilot_Commit.webp";
 import { BlurFade } from "@/components/ui/blur-fade";
 
