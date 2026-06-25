@@ -102,7 +102,7 @@ export default function FAQ() {
 
           <p className="mt-2 text-[#3D3D4E] ">
             Si vous ne trouvez pas la réponse à votre question,
-            veuillez nous écrire sur <a class="text-[#1B4FD8]" href="https://www.facebook.com/JanelGuedemey" target="_blank">Facebook</a> ou via <a class="text-green-700" href="https://wa.me/22951212249" target="_blank">WhatsApp</a>.
+            veuillez nous écrire sur <a className="text-[#1B4FD8]" href="https://www.facebook.com/JanelGuedemey" target="_blank">Facebook</a> ou via <a className="text-green-700" href="https://wa.me/22951212249" target="_blank">WhatsApp</a>.
           </p>
 
         </div>
