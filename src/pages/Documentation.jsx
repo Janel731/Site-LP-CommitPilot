@@ -15,7 +15,7 @@ const Documentation = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid lg:grid-cols-[260px_1fr] gap-12">
           {/* Sidebar */}
-          <aside className="sticky top-24 hidden h-fit lg:block">
+          <aside className="sticky top-24 hidden h-fit lg:block border-r border-zinc-800">
             <nav className="space-y-8">
               <div>
                 <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-[#1B4FD8] ">

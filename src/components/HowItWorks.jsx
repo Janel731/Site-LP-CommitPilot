@@ -29,7 +29,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-32 bg-[#121213]">
+    <section className="py-32 bg-[#121213]" id="howToWorks">
       <div className="container mx-auto px-6 ">
 
         {/* Header */}

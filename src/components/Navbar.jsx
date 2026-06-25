@@ -5,12 +5,12 @@ import {
   ArrowRight,
   Menu,
 } from "lucide-react";
-import { Link } from 'react-router-dom';
+
 
 
 const navigationItems = [
   { title: "ACCEUIL", lien: "/" },
-  { title: "Comment çà marche?", lien: "#" },
+  { title: "Comment çà marche?", lien: "#howToWorks" },
   { title: "DOCUMENTATION", lien: "/documentation" },
   { title: "ABOUT US", lien: "#" },
 ];
@@ -20,7 +20,7 @@ const Navbar = () => {
     <>
       <header>
 
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-16 items-center justify-between p-7 fixed top-0 left-0 w-full bg-white z-20">
 
 
           <a href="#" className="flex items-center gap-2">
@@ -43,13 +43,14 @@ const Navbar = () => {
 
             {navigationItems.map((item)=>(
               
-              <Link
+              <a
                 key={item.title}
                 to={item.lien}
-                className="text-sm font-mono text-foreground hover:text-[#FF6B2C] transition-colors"
+                href={item.lien}
+                className="text-sm font-mono text-foreground hover:text-[#1B4FD8] transition-colors"
               >
                 {item.title}
-              </Link>
+              </a>
 
             ))}
 
@@ -62,7 +63,7 @@ const Navbar = () => {
 
             <Button
               variant="default"
-              className="rounded-none hidden md:inline-flex bg-[#FF6B2C] hover:bg-[#FF6B2C]/90 font-mono"
+              className="rounded-none hidden md:inline-flex bg-[#1B4FD8] hover:bg-[#1B4FD8]/90 font-mono"
             >
 
               GET STARTED
@@ -97,15 +98,15 @@ const Navbar = () => {
 
               <SheetContent>
 
-                <nav className="flex flex-col gap-6 mt-6">
+                <nav className="flex flex-col gap-6 mt-6 p-6">
 
 
                   {navigationItems.map((item)=>(
 
                     <a
                       key={item.title}
-                      href={item.href}
-                      className="text-sm font-mono text-foreground hover:text-[#FF6B2C] transition-colors"
+                      href={item.lien}
+                      className="text-sm font-mono text-foreground hover:text-[#1B4FD8] transition-colors"
                     >
                       {item.title}
                     </a>
@@ -113,7 +114,7 @@ const Navbar = () => {
                   ))}
 
 
-                  <Button className="cursor-pointer rounded-none bg-[#FF6B2C] hover:bg-[#FF6B2C]/90 font-mono">
+                  <Button className="cursor-pointer rounded-none bg-[#1B4FD8] hover:bg-[#1B4FD8]/90 font-mono">
 
                     GET STARTED
 

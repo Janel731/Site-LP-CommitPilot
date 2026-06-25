@@ -2,7 +2,7 @@ export default function Introduction() {
   return (
     <section
       id="getting-started"
-      className="border-b border-zinc-800 pb-12 md:pb-16"
+      className="border-b border-zinc-800 pb-12 md:pb-16 pt-6"
     >
       <div className="w-full max-w-4xl">
         <span className="text-sm font-medium text-[#1B4FD8]">
