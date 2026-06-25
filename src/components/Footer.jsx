@@ -50,7 +50,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/Janel731/"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
               <FaGithub size={18} />
