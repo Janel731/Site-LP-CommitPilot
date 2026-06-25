@@ -44,15 +44,15 @@ export default function FAQ() {
     >
       <div className="max-w-4xl">
 
-        <span className="text-sm font-medium text-blue-400">
+        <span className="text-sm font-medium text-[#1B4FD8]">
           FAQ
         </span>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-[#1E1E2E] md:text-4xl">
           Questions fréquentes
         </h2>
 
-        <p className="mt-5 max-w-3xl text-base leading-relaxed text-zinc-400 md:text-lg">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text-[#3D3D4E] md:text-lg">
           Tout ce qu'il faut savoir pour utiliser CommitPilot efficacement.
         </p>
 
@@ -61,7 +61,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/30"
+              className="overflow-hidden rounded-2xl border border-zinc-800 bg-[#1E1E2E]"
             >
               <button
                 onClick={() =>
@@ -94,15 +94,15 @@ export default function FAQ() {
 
         {/* Bloc support */}
 
-        <div className="mt-10 rounded-2xl border border-blue-500/20 bg-blue-500/5 p-6">
+        <div className="mt-10 rounded-2xl border border-blue-500/20 bg-[#1B4FD8]/25 p-6">
 
-          <h3 className="text-lg font-semibold text-white">
+          <h3 className="text-lg font-semibold text-[#1B4FD8]">
             Besoin d'aide supplémentaire ?
           </h3>
 
-          <p className="mt-2 text-zinc-400">
+          <p className="mt-2 text-[#3D3D4E] ">
             Si vous ne trouvez pas la réponse à votre question,
-            veuillez nous écrire sur <a href="">Facebook</a> ou via <a href="">WhatsApp</a>.
+            veuillez nous écrire sur <a class="text-[#1B4FD8]" href="https://www.facebook.com/JanelGuedemey" target="_blank">Facebook</a> ou via <a class="text-green-700" href="https://wa.me/22951212249" target="_blank">WhatsApp</a>.
           </p>
 
         </div>

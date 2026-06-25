@@ -28,11 +28,11 @@ export default function GroqApi() {
       <div className="max-w-4xl">
         <span className="text-sm font-medium text-[#1B4FD8] ">Configuration</span>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
+        <h2 className="mt-3 text-3xl font-bold tracking-tight md:text-4xl text-[#1E1E2E] ">
           Créer une clé API Groq
         </h2>
 
-        <p className="mt-5 max-w-3xl text-base leading-relaxed text- md:text-lg">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text- md:text-lg text-[#3D3D4E] ">
           CommitPilot utilise l'intelligence artificielle de Groq pour analyser
           votre projet et générer des commits pertinents. Une clé API est
           nécessaire pour activer cette fonctionnalité.
@@ -40,10 +40,10 @@ export default function GroqApi() {
 
         {/* Warning */}
 
-        <div className="mt-8 rounded-2xl border border-yellow-500/20 bg-yellow-500/5 p-5">
-          <h3 className="font-semibold text-yellow-400">Important</h3>
+        <div className="mt-8 rounded-2xl border border-yellow-500 bg-yellow-500/25 p-5">
+          <h3 className="font-semibold text-[#111827] ">Important</h3>
 
-          <p className="mt-2 text-sm leading-relaxed text-zinc-300 md:text-base">
+          <p className="mt-2 text-sm leading-relaxed text-md:text-base text-[#374151] ">
             Groq affiche votre clé API une seule fois après sa création. Pensez
             à la copier immédiatement et à la conserver dans un endroit
             sécurisé.
@@ -56,9 +56,9 @@ export default function GroqApi() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5"
+              className="rounded-2xl border border-zinc-800 bg-[#1E1E2E] p-5"
             >
-              <span className="text-sm font-medium text-blue-400">
+              <span className="text-sm font-medium text-[#1B4FD8] ">
                 {step.number}
               </span>
 
@@ -71,14 +71,14 @@ export default function GroqApi() {
           ))}
         </div>
 
-        <div className="mt-8 rounded-2xl border border-yellow-500/20 bg-yellow-500/5 p-5">
-          <h3 className="font-semibold text-yellow-400">Enregrister la clé</h3>
+        <div className="mt-8 rounded-2xl border border-yellow-500/20 bg-yellow-500/25 p-5">
+          <h3 className="font-semibold text-[#111827] ">Enregrister la clé</h3>
 
-          <p className="mt-2 text-sm leading-relaxed text-zinc-300 md:text-base">
+          <p className="mt-2 text-sm leading-relaxed text-[#374151] md:text-base">
             Apres avoir créer la clé revener dans le terminal de votre éditeur
             de texte et coller la clé dans l'espace dédié à la recevoir après
             que vous avez fait{" "}
-            <code className="text-blue-400">commitpilot init</code>.
+            <code className="text-[#1B4FD8] ">commitpilot init</code>.
           </p>
         </div>
 

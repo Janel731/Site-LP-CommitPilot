@@ -6,15 +6,15 @@ export default function Workflow() {
     >
       <div className="max-w-5xl">
 
-        <span className="text-sm font-medium text-blue-400">
+        <span className="text-sm font-medium text-[#1B4FD8] ">
           Workflow
         </span>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl">
+        <h2 className="mt-3 text-3xl font-bold tracking-tight text-[#1E1E2E] md:text-4xl">
           Simplifiez votre workflow Git
         </h2>
 
-        <p className="mt-5 max-w-3xl text-base leading-relaxed text-zinc-400 md:text-lg">
+        <p className="mt-5 max-w-3xl text-base leading-relaxed text-[#3D3D4E] md:text-lg">
           CommitPilot réduit plusieurs étapes manuelles à une seule
           commande. Concentrez-vous sur votre code, pas sur la gestion
           des commits.
@@ -98,7 +98,7 @@ git push`}
 
         {/* Résultat */}
 
-        <div className="mt-10 rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6">
+        <div className="mt-10 rounded-2xl border border-zinc-800 bg-[#1E1E2E] p-6">
 
           <h3 className="text-xl font-semibold text-white">
             Résultat
