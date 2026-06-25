@@ -43,7 +43,7 @@ export default function FinalCTA() {
             </a>
 
             <a
-              href="installation"
+              href="/documentation"
               className="rounded-xl border border-zinc-700 px-8 py-4 font-medium text-zinc-300 transition hover:border-zinc-600 hover:bg-zinc-900"
             >
               Installer CommitPilot
