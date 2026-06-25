@@ -152,7 +152,7 @@ export default function Hero() {
                     key={feature.label}
                     className="flex items-center gap-2 px-6"
                   >
-                    <Icon className="h-5 w-5 text-[#FF6B2C]" />
+                    <Icon className="h-5 w-5 text-[#1B4FD8]" />
 
                     <span className="text-sm font-mono">{feature.label}</span>
                   </motion.div>
@@ -162,7 +162,7 @@ export default function Hero() {
 
             <Button
               size="lg"
-              className="cursor-pointer rounded-none mt-12 bg-[#FF6B2C] hover:bg-[#FF6B2C]/90 font-mono"
+              className="cursor-pointer rounded-none mt-12 bg-[#1B4FD8] hover:bg-[#1B4FD8]/90 font-mono"
             >
               GET STARTED
               <ArrowRight className="ml-1 w-4 h-4" />
