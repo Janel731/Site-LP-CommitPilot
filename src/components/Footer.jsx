@@ -43,7 +43,7 @@ export default function Footer() {
           {/* Socials */}
           <div className="mb-10 flex gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/JanelGuedemey"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
               <FaFacebook size={18} />
