@@ -57,7 +57,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/janel-guedemey-798545400/"
               className="rounded-full border border-zinc-800 p-3 text-zinc-400 transition hover:border-blue-500 hover:text-blue-400"
             >
               <FaLinkedin size={18} />
